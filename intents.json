@@ -1,0 +1,47 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Toro?","Toro"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I'm Toro, your bot assistant", "I'm Toro, a stock market chatbot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Toro. Which is spanish for bull", "I'm Toro!", "Just call me as Toro"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "stockbasic",
+    "patterns": ["What is the stock market?", "What are stocks?", "What is a share?", "what is a stock price?", "What do you do?", "What can you do?","How can you help","How do you help?"],
+    "responses": ["A stock market, equity market, or share market is the aggregation of buyers and sellers of stocks (also called shares), which represent ownership claims on businesses; these may include securities listed on a public stock exchange, as well as stock that is only traded privately, such as shares of private companies which are sold to investors through equity crowdfunding platforms.\n\nI can help you understand this world of stocks and help with predicting price trends for a stock. \nVisit here to learn more https://en.wikipedia.org/wiki/Stock_market"]
+    },
+    {"tag": "companydoubt",
+    "patterns": ["Where can I get the company’s financial report and other information?", "From where can I learn about a company?", "How to learn about a company?"],
+    "responses": ["The company information is easily available on stocks exchanges (NSE, BSE), company website under investor relations or about us section of the website. The information is also available on other financial websites like money control, screener.com etc. We also recommend reading annual reports of the company to have a deep understanding of the company’s business and its future prospects.\nLearn more here https://www.nseindia.com/"]
+    },
+    {"tag": "bullbear",
+    "patterns": ["What is bull market and bear market", "what is a bull market", "what is a bear market","what is a bullish", "what is a bearish"],
+    "responses": ["A bull market occurs when securities are on the rise, while a bear market occurs when securities fall for a sustained period of time. It's important to understand the differences between bull and bear markets and how they impact your investment decisions."]
+    },
+    {"tag": "buyprediction",
+    "patterns": ["When should I buy the stock?", "what is the best time to buy", "when will the stock price be lowest","when to buy", "when will be the lowest price"],
+    "responses": ["According to my prediction the stock price for the resquested Facebook Stock will be the lowest at 1728.2399 USD on the 4th of January 2022"]
+    },
+    {"tag": "sellprediction",
+    "patterns": ["When should I sell the stock?", "what is the best time to sell", "when will the stock price be highest","when to sell", "when will be the highest price"],
+    "responses": ["According to my prediction the stock price for the resquested Facebook Stock will be the highest at 3014.1799 USD on the 18th of November 2022"]
+    }
+]
+}
